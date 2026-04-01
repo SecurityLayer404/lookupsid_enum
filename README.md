@@ -8,10 +8,18 @@ Este script en Bash automatiza la enumeración de usuarios válidos en entornos 
 - [Impacket](https://github.com/SecureAuthCorp/impacket) correctamente instalado
 - Acceso válido al servicio (puerto 445/TCP abierto y credenciales válidas)
 
+## 📦 Instalación
+
+Cloná el repositorio o descargá el script:
+
+```bash
+❯ git clone https://github.com/SecurityLayer404/lookupsid_enum.git
+```
+
 ## 📌 Uso
 
 ```bash
-./lookupsid_enum.sh <IP> <usuario> <contraseña> <dominio>
+❯ ./lookupsid_enum.sh <IP> <usuario> <contraseña> <dominio>
 ```
 
 ### Parámetros:
@@ -24,9 +32,9 @@ Este script en Bash automatiza la enumeración de usuarios válidos en entornos 
 ### Ejemplos:
 
 ```bash
-./lookupsid_enum.sh 192.168.1.10 juan p@ssw0rd EMPRESA.local
+❯ ./lookupsid_enum.sh 192.168.1.10 juan p@ssw0rd EMPRESA.local
 
-./lookupsid_enum.sh 192.168.1.10 guest '' EMPRESA.local
+❯ ./lookupsid_enum.sh 192.168.1.10 guest '' EMPRESA.local
 ```
 
 ## 📌 Salida
